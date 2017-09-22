@@ -10,6 +10,8 @@ function updatePlaylist(playlist, artistName, songTitle){
 //updatePlaylist(playlist, "Van Halen", "Aint Talkin bout Love")
 
 function removeFromPlaylist(playlist, artistName){
+  console.log(playlist);
   delete playlist.artistName;
+  console.log(playlist);
   return playlist;
 }
