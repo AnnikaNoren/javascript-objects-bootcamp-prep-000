@@ -9,7 +9,7 @@ function updatePlaylist(playlist, key, value){
 
 //updatePlaylist(playlist, "Van Halen", "Aint Talkin bout Love")
 
-function removeFromPlaylist(playlist, key){
-  delete playlist.key;
+function removeFromPlaylist(playlist, artist){
+  delete playlist.artist;
   return playlist;
 }
