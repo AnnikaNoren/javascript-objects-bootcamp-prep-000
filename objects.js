@@ -7,4 +7,4 @@ function updatePlaylist({obj, key, value){
   return Object.assign({}, obj, {[key]:value})
 }
 
-updatePlaylist(playlist, "Van Halen", "Aint Talkin bout Love")
+//updatePlaylist(playlist, "Van Halen", "Aint Talkin bout Love")
