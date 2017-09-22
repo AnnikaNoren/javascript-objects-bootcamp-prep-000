@@ -1,5 +1,5 @@
 var playlist = {
-  ABBA: "Mamma Mia", 
+  ABBA: "Mamma Mia",
   U2: "Beautiful Day"
 }
 
