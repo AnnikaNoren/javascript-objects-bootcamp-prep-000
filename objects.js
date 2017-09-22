@@ -3,8 +3,8 @@ var playlist = new Object({
   U2: "Beautiful Day"
 });
 
-function updatePlaylist(playlist, key, value){
-  return Object.assign({}, playlist, {[key]:value})
+function updatePlaylist(playlist, artistName, songTitle){
+  return Object.assign({}, playlist, {[artistName]:songTitle})
 }
 
 //updatePlaylist(playlist, "Van Halen", "Aint Talkin bout Love")
